@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FDE1186C223322AD007B070C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1186B223322AD007B070C /* AppDelegate.swift */; };
-		FDE1186E223322AD007B070C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1186D223322AD007B070C /* ViewController.swift */; };
 		FDE11871223322AD007B070C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE1186F223322AD007B070C /* Main.storyboard */; };
 		FDE11873223322AE007B070C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE11872223322AE007B070C /* Assets.xcassets */; };
 		FDE11876223322AE007B070C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE11874223322AE007B070C /* LaunchScreen.storyboard */; };
 		FDE11881223322AE007B070C /* mario_kartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE11880223322AE007B070C /* mario_kartTests.swift */; };
 		FDE1188C223322AE007B070C /* mario_kartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1188B223322AE007B070C /* mario_kartUITests.swift */; };
+		FDE1189A2233266D007B070C /* MarioKartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE118992233266D007B070C /* MarioKartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FDE11868223322AC007B070C /* mario kart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mario kart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE1186B223322AD007B070C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDE1186D223322AD007B070C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDE11870223322AD007B070C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDE11872223322AE007B070C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDE11875223322AE007B070C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		FDE11887223322AE007B070C /* mario kartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mario kartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE1188B223322AE007B070C /* mario_kartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mario_kartUITests.swift; sourceTree = "<group>"; };
 		FDE1188D223322AE007B070C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE118992233266D007B070C /* MarioKartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FDE1186B223322AD007B070C /* AppDelegate.swift */,
-				FDE1186D223322AD007B070C /* ViewController.swift */,
 				FDE1186F223322AD007B070C /* Main.storyboard */,
+				FDE118992233266D007B070C /* MarioKartViewController.swift */,
 				FDE11872223322AE007B070C /* Assets.xcassets */,
 				FDE11874223322AE007B070C /* LaunchScreen.storyboard */,
 				FDE11877223322AE007B070C /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE1186E223322AD007B070C /* ViewController.swift in Sources */,
+				FDE1189A2233266D007B070C /* MarioKartViewController.swift in Sources */,
 				FDE1186C223322AD007B070C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QPQVDNWL7F;
 				INFOPLIST_FILE = "mario kart/Info.plist";
@@ -450,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QPQVDNWL7F;
 				INFOPLIST_FILE = "mario kart/Info.plist";
